@@ -1,0 +1,57 @@
+
+.header {
+    background-color: #20232a; 
+    padding: 0.5rem 1rem;
+}
+  
+.header .navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+  
+  
+.header .navbar-nav .nav-link {
+    color: #ffffff; 
+    margin-right: 20px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+  
+.header .navbar-nav .nav-link:hover {
+    color: #61dafb; 
+}
+  
+ 
+.header .form-control {
+    width: 250px;
+    border-radius: 20px;
+}
+  
+.header .btn-outline-success {
+    border-color: #61dafb; 
+    color: #61dafb;
+    border-radius: 20px;
+    padding: 0 15px;
+}
+  
+.header .btn-outline-success:hover {
+    background-color: #61dafb;
+    color: #20232a; 
+    border-color: #20232a;
+}
+  
+  
+@media (max-width: 768px) {
+    .header .form-control {
+      width: 100%;
+      margin-top: 10px;
+    }
+.header .btn-outline-success {
+      width: 100%;
+      margin-top: 10px;
+    }
+}
+
+
+  
+  
